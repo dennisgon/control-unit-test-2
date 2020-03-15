@@ -20,7 +20,7 @@ export default {
 		'menu-list': MenuList
 	},
 	methods: {
-		addToCart(){
+		addToCart(event){
 			let testing = {
 				"id":1,
 				"price": 10000,

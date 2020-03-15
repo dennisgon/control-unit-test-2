@@ -27,6 +27,11 @@
 			  	this.category=this.$route.params.category
 			}
 		},
+		mounted:function(){
+			if(this.$store.state.login == false){
+				this.$router.push('/')
+			}
+		},
 		components:{
 			'grid-menu': GridMenu,
 			'checkout':Checkout

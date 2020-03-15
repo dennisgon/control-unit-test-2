@@ -1,17 +1,88 @@
 {
   "Menus": [
-    { "id": 1, "price": 10000, "title": "Jangan Takut Makan Enak","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/COVER-Jangan-Takut-Makan-Enak-1-324x432.jpg","category":"buku" },
-    { "id": 2, "price": 49000, "title": "Kiat Mengalahkan Demam Berdarah dan Virus Zika","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/demam-berdarah-1-324x432.png","category":"buku" },
-    { "id": 3, "price": 90000, "title": "MEMOAR MISS INDONESIA 1969 – Irma Hardisurya","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2020/01/miss-indonesia-324x432.png","category":"buku" },
-    { "id": 4, "price": 189000, "title": "Kaos Kompas Edisi Warga +62 – Putih","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2019/09/GERAI-WARGA62-324x432.png","category":"merchandise" },
-    { "id": 5, "price": 120000, "title": "Kaos Kompas Edisi Bung Hatta","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/Hatta-Kaos-1-324x432.png","category":"merchandise" },
-    { "id": 6, "price": 120000, "title": "Kaos Kompas Edisi Soe Hok Gie","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/Gie-Kaos-1-324x432.png","category":"merchandise" },
-    { "id": 7, "price": 149000, "title": "Kompas Digital Premium – Ekstra","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2020/01/Image_01-2-324x432.png","category":"paket" },
-    { "id": 8, "price": 120000, "title": "Koran Kompas Edisi 18 November","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2019/11/IG-Story-Card-promo-merch-bomar-2019-03-324x432.jpg","category":"paket" },
-    { "id": 9, "price": 108000, "title": "Kompas Digital Premium + koran","image":"https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/slider-promo-langganan-494X600-1-324x432.jpg","category":"paket" }
-
+    {
+      "id": 1,
+      "price": 10000,
+      "title": "Jangan Takut Makan Enak",
+      "desc":"buku Jangan Takut Makan Enak",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/COVER-Jangan-Takut-Makan-Enak-1-324x432.jpg",
+      "category": "buku"
+    },
+    {
+      "id": 2,
+      "price": 49000,
+      "title": "Kiat Mengalahkan Demam Berdarah dan Virus Zika",
+      "desc":"buku Kiat Mengalahkan Demam Berdarah dan Virus Zika",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/demam-berdarah-1-324x432.png",
+      "category": "buku"
+    },
+    {
+      "id": 3,
+      "price": 90000,
+      "title": "MEMOAR MISS INDONESIA 1969 – Irma Hardisurya",
+      "desc":"buku MEMOAR MISS INDONESIA 1969 – Irma Hardisurya",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2020/01/miss-indonesia-324x432.png",
+      "category": "buku"
+    },
+    {
+      "id": 4,
+      "price": 189000,
+      "title": "Kaos Kompas Edisi Warga +62 – Putih",
+      "desc":"Kaos  merchandise Kompas Edisi Warga +62 – Putih",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2019/09/GERAI-WARGA62-324x432.png",
+      "category": "merchandise"
+    },
+    {
+      "id": 5,
+      "price": 120000,
+      "title": "Kaos Kompas Edisi Bung Hatta",
+      "desc":"Kaos merchandise Kaos Kompas Edisi Bung Hatta",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/Hatta-Kaos-1-324x432.png",
+      "category": "merchandise"
+    },
+    {
+      "id": 6,
+      "price": 120000,
+      "title": "Kaos Kompas Edisi Soe Hok Gie",
+      "desc":"Kaos merchandise Kompas Edisi Soe Hok Gi",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/Gie-Kaos-1-324x432.png",
+      "category": "merchandise"
+    },
+    {
+      "id": 7,
+      "price": 149000,
+      "title": "Kompas Digital Premium – Ekstra",
+      "desc":"extra untuk 3 orang",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2020/01/Image_01-2-324x432.png",
+      "category": "paket langganan"
+    },
+    {
+      "id": 8,
+      "price": 120000,
+      "title": "Koran Kompas Edisi 18 November",
+      "desc": "dapet koran edisi 18 november dan kompas.id",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2019/11/IG-Story-Card-promo-merch-bomar-2019-03-324x432.jpg",
+      "category": "paket langganan"
+    },
+    {
+      "id": 9,
+      "price": 108000,
+      "title": "Kompas Digital Premium + koran",
+      "desc": "dapet koran dan kompas.id",
+      "image": "https://gerai-kompas-id.azureedge.net/wp-content/uploads/2018/11/slider-promo-langganan-494X600-1-324x432.jpg",
+      "category": "paket langganan"
+    }
   ],
   "users": [
-    { "id": 1, "username": "dennisgon", "password": "testing" }
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "username": "dennisgon",
+      "password": "testing",
+      "id": 2
+    }
   ]
 }

@@ -20,17 +20,22 @@
 				password:""
 			}
 		},
+
 		methods:{
 			LoginAction(){
 				let username = this.username;
 				let password = this.password;
-				if(username == "admin" && password == "admin"){
-					this.$store.state.login = true;
-					console.log(this.$store.state.login);
-					this.$router.push('/menu/all')
-				}else{
-					alert('username dan password salah')
-				}
+				// TODO::check login data with axios
+				const baseURI = 'http://localhost:3000/users?username='+username+'&password='+password
+				this.$http.get(baseURI)
+				.then((result) => {
+					if(result.data.length <= 0 ){
+						alert('username dan password salah')
+					}else{
+						this.$store.state.login = true;
+						this.$router.push('/menu/all')					
+					}
+				})
 			}
 		}
 	}

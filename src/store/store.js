@@ -6,7 +6,8 @@ Vue.use(Vuex)
 export const store = new Vuex.Store({
 	state: {
 		cart: [],
-		login: false
+		login: false,
+		category: "all"
 	},
 	getters:{
 		getCart: state=>{
@@ -39,6 +40,9 @@ export const store = new Vuex.Store({
 		},
 		getLogin: state=>{
 			return state.login
+		},
+		getCategory: state=>{
+			return state.category
 		}
 	}
 })

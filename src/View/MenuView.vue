@@ -19,12 +19,13 @@
 		data(){
 			return{
 				category: this.$route.params.category,
-				total:100000
+				total:0
 			}
 		},
 		watch: {
 		    '$route.params.category': function (id) {
 			  	this.category=this.$route.params.category
+			  	this.$store.state.category = this.$route.params.category;
 			}
 		},
 		mounted:function(){

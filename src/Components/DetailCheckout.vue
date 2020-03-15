@@ -28,6 +28,7 @@
 				for (var i = 0; i < this.$store.state.cart.length; i++) {
 					if(this.$store.state.cart[i].id == id){
 						this.$store.state.cart.splice(i,1);
+						break;
 					}
 				}
 			}
